@@ -6,6 +6,7 @@
 fn main() {
     let mut res = 42;
     let option = Some(12);
+    // why?
     if let Some(x) = option {
         res += x;
     }
